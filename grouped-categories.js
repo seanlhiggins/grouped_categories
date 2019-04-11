@@ -230,7 +230,7 @@
 			grid = axis.labelsGrid,
 			horiz = axis.horiz,
 			d = axis.labelsGridPath,
-			i = options.drawHorizontalBorders === false ? (depth + 1) : 0,
+			i = options.drawHorizontalBorders === false ? (depth + 1) : (depth + 1),
 			offset = axis.opposite ? (horiz ? top : right) : (horiz ? bottom : left),
 			tickWidth = axis.tickWidth,
 			part;
